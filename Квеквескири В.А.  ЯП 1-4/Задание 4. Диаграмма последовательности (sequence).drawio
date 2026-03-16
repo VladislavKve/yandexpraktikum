@@ -92,7 +92,7 @@
             <mxPoint x="669" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg-3" value="SELECT user WHERE email, password_hash" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
+        <mxCell id="msg-3" value="SELECT FROM Users WHERE email, password_hash; проверка role" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="669" y="250" as="sourcePoint" />
             <mxPoint x="829" y="250" as="targetPoint" />
@@ -376,6 +376,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="669" y="1455" as="sourcePoint" />
             <mxPoint x="829" y="1455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-63" value="200 OK (status=&quot;закрыт&quot;)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="1475" as="sourcePoint" />
+            <mxPoint x="499" y="1475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-64" value="Задание закрыто, статус: «закрыт»" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="1495" as="sourcePoint" />
+            <mxPoint x="215" y="1495" as="targetPoint" />
           </mxGeometry>
         </mxCell>
 
