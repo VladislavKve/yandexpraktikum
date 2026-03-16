@@ -1,0 +1,395 @@
+<mxfile host="app.diagrams.net" agent="Cursor IDE" version="29.3.2">
+  <diagram name="ER-диаграмма" id="er-diagram-1">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="store-header" value="Store" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1e5799;fontColor=#ffffff;strokeColor=#1e5799;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="store-r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="store-header">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="store-r1c1" value="store_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="store-r1">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="store-r1c2" value="int  🔑" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="store-r1">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="store-r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="store-header">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="store-r2c1" value="name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="store-r2">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="store-r2c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="store-r2">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="store-r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="store-header">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="store-r3c1" value="address" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="store-r3">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="store-r3c2" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="store-r3">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="store-note" value="Магазин сети.&#xa;Содержит информацию о&#xa;торговых точках, откуда&#xa;поступают задания на&#xa;сервисные работы." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=15;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="230" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="user-header" value="User" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1e5799;fontColor=#ffffff;strokeColor=#1e5799;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="230" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="user-r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="user-header">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user-r1c1" value="user_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r1">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r1c2" value="int  🔑" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r1">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="user-header">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user-r2c1" value="full_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r2">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r2c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r2">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="user-header">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user-r3c1" value="email" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r3">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r3c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r3">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="user-header">
+          <mxGeometry y="120" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user-r4c1" value="role" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r4">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r4c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r4">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="user-header">
+          <mxGeometry y="150" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="user-r5c1" value="store_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r5">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="user-r5c2" value="int FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="user-r5">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="user-note" value="Пользователь системы.&#xa;Хранит информацию об&#xa;Управляющих магазинами,&#xa;Управляющих офисом и&#xa;Специалистах HR.&#xa;role: store_manager |&#xa;office_manager | hr_specialist" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=15;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="230" height="110" as="geometry" />
+        </mxCell>
+
+        <mxCell id="task-header" value="ServiceTask" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1e5799;fontColor=#ffffff;strokeColor=#1e5799;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="260" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="task-r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="task-header">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="task-r1c1" value="task_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r1">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r1c2" value="int  🔑" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r1">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="task-header">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="task-r2c1" value="store_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r2">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r2c2" value="int FK NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r2">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="task-header">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="task-r3c1" value="created_by" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r3">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r3c2" value="int FK NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r3">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="task-header">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="task-r4c1" value="work_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r4">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r4c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r4">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="task-header">
+          <mxGeometry y="150" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="task-r5c1" value="start_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r5">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r5c2" value="date NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r5">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="task-header">
+          <mxGeometry y="180" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="task-r6c1" value="end_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r6">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r6c2" value="date NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r6">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="task-header">
+          <mxGeometry y="210" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="task-r7c1" value="status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r7">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="task-r7c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="task-r7">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="task-note" value="Задание на сервисные работы.&#xa;Создаётся Управляющим магазином.&#xa;Статусы: новый, в работе,&#xa;выполнен, закрыт, отменён.&#xa;Содержит параметры задания:&#xa;наименование работ и даты." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=15;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="360" width="260" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="spec-header" value="Specialist" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1e5799;fontColor=#ffffff;strokeColor=#1e5799;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="spec-r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="spec-header">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="spec-r1c1" value="specialist_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="spec-r1">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="spec-r1c2" value="int  🔑" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="spec-r1">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="spec-r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="spec-header">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="spec-r2c1" value="full_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="spec-r2">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="spec-r2c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="spec-r2">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="spec-r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="spec-header">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="spec-r3c1" value="category_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="spec-r3">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="spec-r3c2" value="int FK NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="spec-r3">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="spec-r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="spec-header">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="spec-r4c1" value="availability_status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="spec-r4">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="spec-r4c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="spec-r4">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="spec-note" value="Специалист (временный работник).&#xa;Хранится в системе «Персонал».&#xa;Назначается на сервисные&#xa;работы Управляющим офисом.&#xa;Связан с категорией специализации." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=15;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="400" y="710" width="260" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="cat-header" value="SpecialistCategory" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1e5799;fontColor=#ffffff;strokeColor=#1e5799;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cat-r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="cat-header">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cat-r1c1" value="category_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="cat-r1">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="cat-r1c2" value="int  🔑" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="cat-r1">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="cat-r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="cat-header">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cat-r2c1" value="name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="cat-r2">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="cat-r2c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="cat-r2">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="cat-r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="cat-header">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cat-r3c1" value="description" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="cat-r3">
+          <mxGeometry width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="cat-r3c2" value="varchar" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="cat-r3">
+          <mxGeometry x="115" width="115" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="cat-note" value="Категория специализации.&#xa;Классификация специалистов&#xa;по видам работ (клининг,&#xa;ремонт, инвентаризация и др.)." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=15;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="980" width="230" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="req-header" value="RecruitmentRequest" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1e5799;fontColor=#ffffff;strokeColor=#1e5799;" vertex="1" parent="1">
+          <mxGeometry x="800" y="80" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="req-r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="req-header">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="req-r1c1" value="request_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="req-r1">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="req-r1c2" value="int  🔑" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="req-r1">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="req-r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="req-header">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="req-r2c1" value="task_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="req-r2">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="req-r2c2" value="int FK NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="req-r2">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="req-r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="req-header">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="req-r3c1" value="status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="req-r3">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="req-r3c2" value="varchar NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="req-r3">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="req-r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="req-header">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="req-r4c1" value="created_at" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="req-r4">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="req-r4c2" value="datetime" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="req-r4">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="req-note" value="Заявка на подбор персонала.&#xa;Создаётся Управляющим офисом,&#xa;когда в базе нет подходящих&#xa;специалистов. Поступает в&#xa;работу Специалисту HR." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=15;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="270" width="260" height="80" as="geometry" />
+        </mxCell>
+
+        <mxCell id="assign-header" value="TaskAssignment" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#1e5799;fontColor=#ffffff;strokeColor=#1e5799;" vertex="1" parent="1">
+          <mxGeometry x="800" y="420" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="assign-r1" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="assign-header">
+          <mxGeometry y="30" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="assign-r1c1" value="assignment_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="assign-r1">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="assign-r1c2" value="int  🔑" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="assign-r1">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="assign-r2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="assign-header">
+          <mxGeometry y="60" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="assign-r2c1" value="task_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="assign-r2">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="assign-r2c2" value="int FK NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="assign-r2">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="assign-r3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=1;" vertex="1" parent="assign-header">
+          <mxGeometry y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="assign-r3c1" value="specialist_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="assign-r3">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="assign-r3c2" value="int FK NN" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="assign-r3">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="assign-r4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;top=0;left=0;right=0;bottom=0;" vertex="1" parent="assign-header">
+          <mxGeometry y="120" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="assign-r4c1" value="assigned_at" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="assign-r4">
+          <mxGeometry width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+        <mxCell id="assign-r4c2" value="datetime" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="assign-r4">
+          <mxGeometry x="130" width="130" height="30" as="geometry"><mxPoint y="-30" as="offset" /></mxGeometry>
+        </mxCell>
+
+        <mxCell id="assign-note" value="Назначение специалиста на задание.&#xa;Связывает ServiceTask и Specialist.&#xa;Создаётся при назначении&#xa;конкретных работников&#xa;Управляющим офисом." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;size=15;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="800" y="610" width="260" height="80" as="geometry" />
+        </mxCell>
+
+
+        <mxCell id="rel-store-task" edge="1" parent="1" source="store-r1" target="task-r2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERmandOne;startFill=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rel-store-user" edge="1" parent="1" source="store-r1" target="user-r5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERzeroToOne;startFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="125" />
+              <mxPoint x="20" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="rel-user-task" edge="1" parent="1" source="user-r1" target="task-r3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERmandOne;startFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="425" />
+              <mxPoint x="350" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="rel-task-req" edge="1" parent="1" source="task-r1" target="req-r2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <mxCell id="rel-task-assign" edge="1" parent="1" source="task-r1" target="assign-r2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="125" />
+              <mxPoint x="740" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="rel-spec-assign" edge="1" parent="1" source="spec-r1" target="assign-r3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=0;startArrow=ERmandOne;startFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="565" />
+              <mxPoint x="740" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="rel-cat-spec" edge="1" parent="1" source="cat-r1" target="spec-r3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;startArrow=ERmandOne;startFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="865" />
+              <mxPoint x="330" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="title" value="&lt;b&gt;ER-диаграмма: Интеграция систем «Сервисные работы» и «Персонал»&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="600" height="40" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

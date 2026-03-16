@@ -1,0 +1,355 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Sequence-диаграмма" id="seq-diagram-1">
+    <mxGraphModel dx="1424" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2200" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" value="&lt;b&gt;Интеграция систем при выполнении сервисных работ&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="400" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-sm" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Управляющий&#xa;магазином" vertex="1">
+          <mxGeometry height="55" width="30" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-sm-line" parent="1" style="html=1;points=[[0,0,0,0,5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curve&quot;:1,&quot;curved&quot;:0,&quot;edgeStyle&quot;:&quot;orthogonalEdgeStyle&quot;};dashed=1;dashPattern=4 4;" value="" vertex="1">
+          <mxGeometry height="1340" width="1" x="74" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-om" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Управляющий&#xa;офисом" vertex="1">
+          <mxGeometry height="55" width="30" x="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-om-line" parent="1" style="html=1;points=[[0,0,0,0,5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;dashPattern=4 4;" value="" vertex="1">
+          <mxGeometry height="1340" width="1" x="214" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-hr" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Специалист&#xa;HR" vertex="1">
+          <mxGeometry height="55" width="30" x="340" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-hr-line" parent="1" style="html=1;points=[[0,0,0,0,5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;dashPattern=4 4;" value="" vertex="1">
+          <mxGeometry height="1340" width="1" x="354" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-ui" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="UI&#xa;(Сервисные работы)" vertex="1">
+          <mxGeometry height="55" width="120" x="440" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-ui-line" parent="1" style="html=1;points=[[0,0,0,0,5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;dashPattern=4 4;" value="" vertex="1">
+          <mxGeometry height="1375" width="1" x="499" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-api" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="API&#xa;(Сервисные работы)" vertex="1">
+          <mxGeometry height="55" width="120" x="610" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-api-line" parent="1" style="html=1;points=[[0,0,0,0,5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;dashPattern=4 4;" value="" vertex="1">
+          <mxGeometry height="1375" width="1" x="669" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-db" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="БД&#xa;(Сервисные работы)" vertex="1">
+          <mxGeometry height="65" width="120" x="770" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-db-line" parent="1" style="html=1;points=[[0,0,0,0,5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;dashPattern=4 4;" value="" vertex="1">
+          <mxGeometry height="1375" width="1" x="829" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-int" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Сервис&#xa;интеграции" vertex="1">
+          <mxGeometry height="55" width="120" x="940" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-int-line" parent="1" style="html=1;points=[[0,0,0,0,5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;dashPattern=4 4;" value="" vertex="1">
+          <mxGeometry height="1375" width="1" x="999" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-pers" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" value="Система&#xa;«Персонал»" vertex="1">
+          <mxGeometry height="55" width="120" x="1110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sys-pers-line" parent="1" style="html=1;points=[[0,0,0,0,5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;dashPattern=4 4;" value="" vertex="1">
+          <mxGeometry height="1375" width="1" x="1169" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="frag-auth" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=20;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;fontStyle=1;" value="Аутентификация" vertex="1">
+          <mxGeometry height="130" width="930" x="40" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Вход в систему (login, password)">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <mxPoint x="75" y="210" as="sourcePoint" />
+            <mxPoint x="499" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="POST /auth/login">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="230" as="sourcePoint" />
+            <mxPoint x="669" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="SELECT FROM Users WHERE email, password_hash; проверка role">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="250" as="sourcePoint" />
+            <mxPoint x="829" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="user_data + role">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="829" y="270" as="sourcePoint" />
+            <mxPoint x="669" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="200 OK (token, role)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="290" as="sourcePoint" />
+            <mxPoint x="499" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frag-create" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=140;height=20;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;fontStyle=1;" value="Создание задания" vertex="1">
+          <mxGeometry height="220" width="930" x="40" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Заполнить форму задания&#xa;(work_name, start_date, end_date, category_id)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="355" as="sourcePoint" />
+            <mxPoint x="499" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="POST /tasks (token, task_data)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="385" as="sourcePoint" />
+            <mxPoint x="669" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Валидация параметров задания">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="420" />
+            </Array>
+            <mxPoint x="669" y="410" as="sourcePoint" />
+            <mxPoint x="669" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="INSERT ServiceTask (status=&quot;новый&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="440" as="sourcePoint" />
+            <mxPoint x="829" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="task_id, status=&quot;новый&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="829" y="460" as="sourcePoint" />
+            <mxPoint x="669" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="UPDATE status=&quot;в работе&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="480" as="sourcePoint" />
+            <mxPoint x="829" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="201 Created (task_id, status=&quot;в работе&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="505" as="sourcePoint" />
+            <mxPoint x="499" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Задание создано, статус: «в работе»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="525" as="sourcePoint" />
+            <mxPoint x="75" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frag-select" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=160;height=20;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;fontStyle=1;" value="Подбор специалистов" vertex="1">
+          <mxGeometry height="250" width="1100" x="150" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Открыть задание, нажать «Подобрать специалистов»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="600" as="sourcePoint" />
+            <mxPoint x="499" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="GET /tasks/{id}/specialists (category_id, start_date, end_date)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="625" as="sourcePoint" />
+            <mxPoint x="669" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Валидация параметров запроса">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="660" />
+            </Array>
+            <mxPoint x="669" y="650" as="sourcePoint" />
+            <mxPoint x="669" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="findSpecialists(category_id, start_date, end_date)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="680" as="sourcePoint" />
+            <mxPoint x="999" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="GET /specialists?category={id}&amp;available=true">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999" y="705" as="sourcePoint" />
+            <mxPoint x="1169" y="705" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="specialists[] (specialist_id, full_name, availability_status)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1169" y="730" as="sourcePoint" />
+            <mxPoint x="999" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="specialists[]">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999" y="755" as="sourcePoint" />
+            <mxPoint x="669" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="200 OK (specialists[])">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="775" as="sourcePoint" />
+            <mxPoint x="499" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Список доступных специалистов">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="795" as="sourcePoint" />
+            <mxPoint x="215" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frag-alt" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=30;height=20;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;fontStyle=1;" value="alt" vertex="1">
+          <mxGeometry height="540" width="1100" x="150" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-label-1" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontStyle=2;" value="[specialists найдено &gt; 0]" vertex="1">
+          <mxGeometry height="20" width="150" x="190" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Выбрать специалистов, нажать «Назначить»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="885" as="sourcePoint" />
+            <mxPoint x="499" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="POST /tasks/{id}/assign (specialist_ids[])">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="910" as="sourcePoint" />
+            <mxPoint x="669" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="INSERT TaskAssignment[]">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="935" as="sourcePoint" />
+            <mxPoint x="829" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="UPDATE status=&quot;выполнен&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="960" as="sourcePoint" />
+            <mxPoint x="829" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="200 OK (status=&quot;выполнен&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="985" as="sourcePoint" />
+            <mxPoint x="499" y="985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Специалисты назначены, статус: «выполнен»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="1010" as="sourcePoint" />
+            <mxPoint x="215" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="alt-divider" parent="1" style="line;strokeWidth=1;dashed=1;html=1;strokeColor=#666666;" value="" vertex="1">
+          <mxGeometry height="10" width="1090" x="155" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="alt-label-2" parent="1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontStyle=2;" value="[specialists не найдено]" vertex="1">
+          <mxGeometry height="20" width="150" x="190" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Нажать «Создать заявку на подбор»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="1085" as="sourcePoint" />
+            <mxPoint x="499" y="1085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="POST /recruitment-requests (task_id)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="1110" as="sourcePoint" />
+            <mxPoint x="669" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="INSERT RecruitmentRequest">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="1135" as="sourcePoint" />
+            <mxPoint x="829" y="1135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="201 Created (request_id)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="1160" as="sourcePoint" />
+            <mxPoint x="499" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Заявка на подбор создана">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="1185" as="sourcePoint" />
+            <mxPoint x="215" y="1185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="sendRecruitmentRequest(request_id, category_id)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="1210" as="sourcePoint" />
+            <mxPoint x="999" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-46" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Передать заявку в Систему Персонал">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999" y="1235" as="sourcePoint" />
+            <mxPoint x="1169" y="1235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Обработать заявку на подбор">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1169" y="1270" as="sourcePoint" />
+            <mxPoint x="355" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Добавить кандидатов в базу специалистов">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="1300" as="sourcePoint" />
+            <mxPoint x="1169" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Уведомить о новых кандидатах">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1169" y="1330" as="sourcePoint" />
+            <mxPoint x="999" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Уведомление: кандидаты добавлены">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999" y="1350" as="sourcePoint" />
+            <mxPoint x="215" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frag-close" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=20;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=10;fontStyle=1;" value="Завершение" vertex="1">
+          <mxGeometry height="80" width="760" x="150" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="msg-60" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Подтвердить выполнение работ">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="1420" as="sourcePoint" />
+            <mxPoint x="499" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-61" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="PATCH /tasks/{id}/status (&quot;закрыт&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="1440" as="sourcePoint" />
+            <mxPoint x="669" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-62" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="UPDATE status=&quot;закрыт&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="1455" as="sourcePoint" />
+            <mxPoint x="829" y="1455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-63" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="200 OK (status=&quot;закрыт&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="1475" as="sourcePoint" />
+            <mxPoint x="499" y="1475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="msg-64" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;fontSize=10;" value="Задание закрыто, статус: «закрыт»">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499" y="1495" as="sourcePoint" />
+            <mxPoint x="215" y="1495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
