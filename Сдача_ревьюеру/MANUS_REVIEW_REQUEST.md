@@ -55,12 +55,10 @@
 
 **Критерии:** Найти не менее 3 ошибок в структуре и содержании JSON; написать корректный вариант.
 
-**Найденные ошибки (5 шт.):**
-1. `id` → `task_id` (по ER: ServiceTask.task_id)
-2. `title` → `work_name` (по ER: ServiceTask.work_name)
-3. `descripton` → `description` (опечатка)
-4. `location_id` → `store_id` (по ER: ServiceTask.store_id FK)
-5. Даты: end_date "2025-09-20" раньше start_date "2025-09-22" — логическая ошибка
+**Найденные ошибки (3 шт., по эталону урока):**
+1. `descripton` → `description` (опечатка)
+2. `location_id` → `shop_id` (по эталону: tasks.shop_id FK → shops.id)
+3. Даты: end_date раньше start_date — логическая ошибка
 
 ---
 
